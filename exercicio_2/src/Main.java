@@ -1,4 +1,5 @@
 import javax.xml.transform.Source;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -18,8 +19,22 @@ public class Main {
         boolean result = num.equals(sInvertida);
 
         System.out.println(result);
+        //Exemplo 1
+        String[] strs = {"flowers","flow","fligth" };
+
+        //Exemplo 2
+        String[] strs2 = {"dog","racecer","car"};
 
 
         sc.close();
+    }
+
+    public String[] commonPrefix(String[] strs){
+        for (int i = 0; i < strs.length; i++){
+            var name = strs[i];
+            for (int j = 0; i < name.length(); i++){
+
+            }
+        }
     }
 }
